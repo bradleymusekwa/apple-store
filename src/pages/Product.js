@@ -268,30 +268,21 @@ function Product() {
         <div className="flex w-[100%] justify-center ">
           <hr className="border border-[#454545] w-[90vw] mt-[30px] mb-[20px]" />
         </div>
-        <div className="flex w-[100%] flex-col px-[10px]">
-          <p className="text-orange-600 font-semibold underline mb-[10px] m-auto">
-            Project Goal: MERN E-commerce Showcase 🚀
-          </p>
-          <div className="flex my-[2px] ">
-            <span className="font-semibold mr-[4px]">
-              ✨ React Js Front-end
-            </span>
+        <div className="flex w-[100%] flex-col">
+            <p className="text-600 font-bold underline mb-[10px]">
+              Description
+            </p>
+            <div className="flex my-[2px]">
+             
+              <span className="">
+              Discover a world of innovation with Apple products. From the sleek and powerful iPhone, 
+              to the intuitive iPad and the cutting-edge Mac, Apple offers a seamless blend of technology and design. 
+              With top-notch performance, stunning displays, and a seamless ecosystem, Apple products redefine the way you work, 
+              play, and stay connected. Explore the range of Apple products to experience the perfect combination of style and 
+              functionality.
+              </span>
+            </div>
           </div>
-          <div className="flex my-[2px]">
-            <span className="font-semibold mr-[4px]">
-              💳 PayFast Payment Gateway Integration
-            </span>
-          </div>
-          <div className="flex my-[2px]">
-            <span className="font-semibold mr-[4px]">🛒 Fake Store API </span>
-          </div>
-          <div className="flex my-[2px]">
-            <span className="font-bold mr-[4px] mt-[10px]">
-              ⚙️ Upcoming Features:
-            </span>
-          </div>
-          <p>Node.js backend, authentication, CRUD, Mongo DB and dashboard.</p>
-        </div>
       </div>
     </div>
   );
