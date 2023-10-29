@@ -165,30 +165,11 @@ function Product() {
             <div className="flex my-[2px]">
              
               <span className="">
-              Titanium with textured matte glass back, Action button, Dynamic Island, A17 Pro chip, Pro camera system, 
-              48MP Main Ultra Wide Telephoto, Super-high-resolution photos (24MP and 48MP), Next-generation portraits with Focus and Depth Control, 
-              Up to 29 hours video playback4, USB-C, Supports USB 3 for up to 20x faster transfers
-              </span>
-            </div>
-            <div className="flex my-[2px]">
-              <span className="font-semibold mr-[4px]">
-                💳 PayFast Integration:
-              </span>
-              <span className=""></span>Secure payments for seamless
-              transactions.
-            </div>
-            <div className="flex my-[2px]">
-              <span className="font-semibold mr-[4px]">🛒 API:</span>
-              <span className="">
-                Electronics Products in the "Other" section are from the Fake
-                Store API and the rest are in local storage.
-              </span>
-            </div>
-            <div className="flex my-[2px]">
-              <span className="font-bold mr-[4px]">⚙️ Upcoming:</span>
-              <span className="">
-                {" "}
-                Node.js backend, authentication, CRUD, Mongo DB and dashboard.{" "}
+              Discover a world of innovation with Apple products. From the sleek and powerful iPhone, 
+              to the intuitive iPad and the cutting-edge Mac, Apple offers a seamless blend of technology and design. 
+              With top-notch performance, stunning displays, and a seamless ecosystem, Apple products redefine the way you work, 
+              play, and stay connected. Explore the range of Apple products to experience the perfect combination of style and 
+              functionality.
               </span>
             </div>
           </div>
