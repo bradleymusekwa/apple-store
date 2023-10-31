@@ -1,0 +1,213 @@
+.address-page input[type="text"],
+select {
+  width: 100%;
+  font: 600 20px Cabin;
+  color: rgba(26, 31, 22, 0.5);
+  padding: 12px 5px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  box-sizing: content-box;
+  border: transparent;
+  border-radius: 13px;
+  background: #fff;
+  box-shadow: 0px 4px 16px 0px rgba(26, 31, 22, 0.15);
+}
+
+.address-page input[type="tel"],
+select {
+  width: 30%;
+  font: 600 20px Cabin;
+  color: rgba(26, 31, 22, 0.5);
+  padding: 12px 5px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  box-sizing: content-box;
+  border: transparent;
+  border-radius: 13px;
+  background: #fff;
+  box-shadow: 0px 4px 16px 0px rgba(26, 31, 22, 0.15);
+}
+
+.address-page input[type="tel"]::placeholder {
+  color: rgba(26, 31, 22, 0.5);
+  font-family: Cabin;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.address-page input[type="text"]::placeholder {
+  color: rgba(26, 31, 22, 0.5);
+  font-family: Cabin;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.address-page input[type="date"],
+select {
+  width: 30%;
+  font: 600 20px Cabin;
+  color: rgba(26, 31, 22, 0.5);
+  padding: 12px 5px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  box-sizing: content-box;
+  border: transparent;
+  border-radius: 13px;
+  background: #fff;
+  box-shadow: 0px 4px 16px 0px rgba(26, 31, 22, 0.15);
+}
+
+.address-page input[type="date"]::placeholder {
+  color: rgba(26, 31, 22, 0.5);
+  font-family: Cabin;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.address-page input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  position: inline-block;
+  accent-color: #12805d;
+}
+
+.address-page input[type="submit"] {
+  width: 100%;
+  color: #fff;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.address-page input[type="submit"]:hover {
+  background-color: azure;
+  color: #1a1f16;
+  border: 2px dotted #1a1f16;
+}
+
+.add-address-btn {
+  color: #fff;
+  font-family: Cabin;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 10px;
+  background: #1a1f16;
+}
+
+.address-page button {
+  border: none;
+  background: #fff;
+  color: rgba(26, 31, 22, 0.5);
+  font-family: Cabin;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.address-page button:hover {
+  background: rgba(26, 31, 22, 0.5);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.secure-connection {
+  float: right;
+  color: #02d693;
+  font-family: Cabin;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+.address-page {
+  background: #ededed;
+}
+
+.small-container {
+  font-family: Cabin;
+  width: 40%;
+  background-color: #fff;
+  margin-left: 25%;
+  padding: 39px 54px;
+  border-radius: 15px;
+  margin-top: 10px;
+  padding-bottom: 70px;
+}
+
+.small-container p {
+  float: left;
+  align-items: start;
+  color: rgba(26, 31, 22, 0.5);
+}
+
+.address-page h1 {
+  color: #1a1f16;
+  font-family: Cabin;
+  font-size: 31.25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 7.813px;
+  text-transform: uppercase;
+}
+.form-container {
+  font-family: Cabin;
+  width: 40%;
+  background-color: #fff;
+  margin-left: 25%;
+  padding: 39px 54px;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.address-page label {
+  color: rgba(26, 31, 22, 0.5);
+  font-family: Cabin;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.address-page .para {
+  color: rgba(26, 31, 22, 0.5);
+  float: left;
+  font-family: Cabin;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.label .text-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: var(--body-small-regular-condensed-font-family);
+  font-weight: var(--body-small-regular-condensed-font-weight);
+  color: var(--fontplaceholder);
+  font-size: var(--body-small-regular-condensed-font-size);
+  letter-spacing: var(--body-small-regular-condensed-letter-spacing);
+  line-height: var(--body-small-regular-condensed-line-height);
+  white-space: nowrap;
+  font-style: var(--body-small-regular-condensed-font-style);
+}

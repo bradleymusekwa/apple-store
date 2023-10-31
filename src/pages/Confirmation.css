@@ -1,0 +1,15 @@
+.confirmationbody {
+  background-image: "./ordered.jpg";
+  margin: 0 100px 0 150px;
+  width: 1000px;
+  height: 550px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 8px 10px #a4a4a4;
+}
+
+.confirmationheader h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 70px;
+  text-align: center;
+  font-weight: bolder;
+}
