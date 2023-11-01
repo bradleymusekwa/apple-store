@@ -1,0 +1,125 @@
+form > h1 {
+	margin-right: 230px;
+	margin-top: -50px;
+}
+
+.card {
+	width: 300px;
+	height: Hug (500px);
+	padding: 16px;
+	border-radius: 13px;
+	gap: 8px;
+	background: #ffffff;
+	justify-content: space-around;
+	flex: 1;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	margin: 0 auto;
+	width: 600px;
+}
+
+h1 {
+	font-family: Cabin;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 0.25em;
+	text-align: left;
+	color: #1a1f16;
+}
+
+.card-header > p {
+	font-family: Cabin;
+	font-size: 10px;
+	font-weight: 200;
+	letter-spacing: 0.25em;
+	text-align: left;
+	color: #1a1f16;
+}
+
+.card,
+form {
+	margin-bottom: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+	justify-content: center;
+	margin-top: 50px;
+	padding: 10px;
+	border-radius: 13px;
+	gap: 8px;
+	background: #ffffff;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	width: 600px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+input {
+	width: 70%;
+	height: 40px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	margin-right: 80px;
+}
+
+.mini-heading {
+	color: #c6c7c5;
+	font-size: 10px;
+	margin-right: 410px;
+}
+
+span {
+	margin-right: 0px;
+}
+
+.para > input[type="checkbox"] {
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	position: inline-block;
+	accent-color: #12805d;
+}
+
+.buttons {
+	display: flex;
+	padding: 10px;
+	justify-content: space-between;
+}
+
+.card input {
+	float: left;
+}
+
+.date-cvc {
+	display: flex;
+	width: 50%;
+	padding-right: 10px;
+	justify-content: space-between;
+	margin-right: 200px;
+}
+
+.date-cvc > input {
+	margin-right: 10px;
+}
+
+.btn {
+	width: 500px;
+	height: 40px;
+	border-radius: 5px;
+	border: none;
+	background-color: #1a1f16;
+	color: #ffffff;
+	font-family: normal;
+	font-size: 10px;
+	font-weight: 600;
+	letter-spacing: 0.25em;
+	text-align: center;
+}

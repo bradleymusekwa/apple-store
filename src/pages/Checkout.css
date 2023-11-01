@@ -128,8 +128,7 @@
   border: 1px solid #333;
 }
 
-.change-payment-btn:hover {
-  background-color: #333;
+.change-payment-btn {
   color: white;
   border: white;
 }

@@ -7,33 +7,36 @@ import Products from "./pages/Products";
 import Product from "./pages/Product";
 import Cart from "./pages/Cart";
 import MobileMenu from "./componants/navbar/MobileMenu";
+import Checkout from "./pages/Checkout";
 import Address from "./pages/address";
+import Payment from "./pages/Payment";
 import Confirmation from "./pages/Confirmation";
 
 function App() {
-  const [isOpen, setIsOpen] = useState(false);
+	const [isOpen, setIsOpen] = useState(false);
 
-  // Function to toggle isOpen state
-  const toggleIsOpen = () => {
-    setIsOpen(!isOpen);
-  };
+	// Function to toggle isOpen state
+	const toggleIsOpen = () => {
+		setIsOpen(!isOpen);
+	};
 
-  return (
-    <Router>
-      <Navbar isOpen={isOpen} toggleIsOpen={toggleIsOpen} />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/products/:category" element={<Products />} />
-        <Route path="/product/:id" element={<Product />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/address" element={<Address />} />
-        <Route path="/confirmation" element={<Confirmation />} />
-      </Routes>
+	return (
+		<Router>
+			<Navbar isOpen={isOpen} toggleIsOpen={toggleIsOpen} />
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/products/:category" element={<Products />} />
+				<Route path="/product/:id" element={<Product />} />
+				<Route path="/cart" element={<Cart />} />
+				<Route path="/checkout" element={<Checkout />} />
+				<Route path="/address" element={<Address />} />
+				<Route path="/Payment" element={<Payment />} />
+				<Route path="/confirmation" element={<Confirmation />} />
+			</Routes>
 
-      {/* Add the Overlay component with conditional rendering */}
-      {isOpen && <MobileMenu onClose={toggleIsOpen} />}
-    </Router>
-  );
+			{isOpen && <MobileMenu onClose={toggleIsOpen} />}
+		</Router>
+	);
 }
 
 export default App;
