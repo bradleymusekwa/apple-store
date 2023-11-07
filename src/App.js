@@ -7,7 +7,7 @@ import Products from "./pages/Products";
 import Product from "./pages/Product";
 import Cart from "./pages/Cart";
 import MobileMenu from "./componants/navbar/MobileMenu";
-import Checkout from "./pages/Checkout";
+
 import Address from "./pages/address";
 import Payment from "./pages/Payment";
 import Confirmation from "./pages/Confirmation";
@@ -28,7 +28,7 @@ function App() {
 				<Route path="/products/:category" element={<Products />} />
 				<Route path="/product/:id" element={<Product />} />
 				<Route path="/cart" element={<Cart />} />
-				<Route path="/checkout" element={<Checkout />} />
+				
 				<Route path="/address" element={<Address />} />
 				<Route path="/Payment" element={<Payment />} />
 				<Route path="/confirmation" element={<Confirmation />} />
