@@ -2,9 +2,20 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCreditCard, faGift } from "@fortawesome/free-solid-svg-icons";
+import { useNavigate } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { clearCart } from "../redux/features/cart/cartSlice";
 import "./Checkout.css";
 
 const Checkout = () => {
+	const navigate = useNavigate();
+	const { cartItems } = useSelector((store) => store.cart);
+	const dispatch = useDispatch();
+	
+	const placeOrder = () => {
+		dispatch(clearCart());
+		navigate("/Confirmation");
+	}
 	return (
 		<div className="content-checkout">
 			<div className="left-column">
@@ -14,12 +25,12 @@ const Checkout = () => {
 					</div>
 					<div className="Shipping-address">
 						<div className="Current-address">
-							<button className="change-address-btn">Change</button>
 							<p>Junaid Alexander</p>
 							<p>126 Loop Street</p>
 							<p>Cape Town</p>
 							<p>South Africa</p>
 						</div>
+						<button className="change-address-btn">Change</button>
 					</div>
 				</div>
 				<div className="Payment-Method">
@@ -46,6 +57,14 @@ const Checkout = () => {
 						<h1>Review your bag</h1>
 					</div>
 					<div className="bag-content">
+
+						{cartItems && cartItems.length > 0 && cartItems.map((item) => (
+							<div className="bag-item">
+								<p><b>x{item.quantity}</b></p>
+								<img alt={item.title} src={item.image}/>
+								<p>{item.title}</p>
+							</div>
+						))}
 						<div className="item-view-bag-content" />
 						<hr />
 					</div>
@@ -80,7 +99,7 @@ const Checkout = () => {
 					<div>
 						<hr />
 					</div>
-					<button className="order-placement-btn">Place your order</button>
+					<button onClick={() => placeOrder()} className="order-placement-btn">Place your order</button>
 					<div className="back-cart-btn">
 						<Link to={-1}>
 							<button className="backtocart">Back</button>

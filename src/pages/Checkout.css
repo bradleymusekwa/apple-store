@@ -55,20 +55,24 @@
   width: Fill (839px);
   height: Hug (136px);
   justify-content: space-between;
+  align-items: start;
+  display: flex;
 }
 
 .Current-address {
-  width: Hug (227px);
-  height: Hug (136px);
-  padding: 8px;
-  gap: 1px;
+  display: flex;
+  flex-direction: column;
+  /* width: 227px; */
+  /* height: 136px; */
+  margin: 0;
+  padding: 0;
 }
 
 .Current-address p {
   font-family: Cabin;
   font-size: 20px;
   font-weight: 400;
-  line-height: 1px;
+  /* line-height: 1px; */
   letter-spacing: 0em;
   margin: 1px;
   text-align: left;
@@ -141,6 +145,11 @@
   gap: 16px;
 }
 
+.Current-payment >p{
+  display: flex;
+  gap: 20px;
+}
+
 .Current-payment p {
   width: Hug (250px);
   height: Hug (24px);
@@ -192,6 +201,17 @@
   height: Hug (1, 216px);
   padding: 8px;
   gap: 8px;
+}
+
+.bag-content .bag-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.bag-content .bag-item img{
+  width: 100px;
+  border-radius: 10px;
 }
 
 .item-view-bag-content {
