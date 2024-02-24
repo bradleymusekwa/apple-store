@@ -25,10 +25,10 @@ const Checkout = () => {
 					</div>
 					<div className="Shipping-address">
 						<div className="Current-address">
-							<p>Junaid Alexander</p>
+							<p>Ben Alexander</p>
 							<p>126 Loop Street</p>
-							<p>Cape Town</p>
-							<p>South Africa</p>
+							<p>New York</p>
+							<p>Usa</p>
 						</div>
 						<button className="change-address-btn">Change</button>
 					</div>
